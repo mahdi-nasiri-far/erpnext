@@ -4164,9 +4164,120 @@
 	},
 
 	"Iran": {
-		"Iran Tax": {
-			"account_name": "VAT",
-			"tax_rate": 7.00
+		"tax_categories": [
+			"داخلی",
+			"صادرات",
+			"معاف"
+		],
+		"chart_of_accounts": {
+			"*": {
+				"sales_tax_templates": [
+					{
+						"title": "فروش داخلی - مالیات بر ارزش افزوده ۹٪ و عوارض ۱٪",
+						"tax_category": "داخلی",
+						"is_default": 1,
+						"taxes": [
+							{
+								"account_head": {
+									"account_name": "مالیات بر ارزش افزوده فروش",
+									"account_number": "204",
+									"root_type": "Liability",
+									"tax_rate": 9.0
+								},
+								"description": "مالیات بر ارزش افزوده ۹٪",
+								"rate": 9.0
+							},
+							{
+								"account_head": {
+									"account_name": "عوارض و وجوه قانونی پرداختنی",
+									"account_number": "205",
+									"root_type": "Liability",
+									"tax_rate": 1.0
+								},
+								"description": "عوارض قانونی ۱٪",
+								"rate": 1.0
+							}
+						]
+					},
+					{
+						"title": "فروش داخلی - مالیات بر ارزش افزوده ۹٪",
+						"tax_category": "داخلی",
+						"taxes": [
+							{
+								"account_head": {
+									"account_name": "مالیات بر ارزش افزوده فروش",
+									"account_number": "204",
+									"root_type": "Liability",
+									"tax_rate": 9.0
+								},
+								"description": "مالیات بر ارزش افزوده ۹٪",
+								"rate": 9.0
+							}
+						]
+					},
+					{
+						"title": "فروش صادراتی - نرخ صفر",
+						"tax_category": "صادرات",
+						"taxes": []
+					},
+					{
+						"title": "فروش معاف از مالیات",
+						"tax_category": "معاف",
+						"taxes": []
+					}
+				],
+				"purchase_tax_templates": [
+					{
+						"title": "خرید داخلی - مالیات بر ارزش افزوده ۹٪ و عوارض ۱٪",
+						"tax_category": "داخلی",
+						"is_default": 1,
+						"taxes": [
+							{
+								"account_head": {
+									"account_name": "مالیات بر ارزش افزوده خرید",
+									"account_number": "113",
+									"root_type": "Asset",
+									"tax_rate": 9.0
+								},
+								"description": "مالیات بر ارزش افزوده ۹٪ (قابل استرداد)",
+								"rate": 9.0
+							},
+							{
+								"account_head": {
+									"account_name": "مالیات بر ارزش افزوده خرید",
+									"account_number": "113",
+									"root_type": "Asset",
+									"tax_rate": 1.0
+								},
+								"description": "عوارض قانونی ۱٪",
+								"rate": 1.0
+							}
+						]
+					},
+					{
+						"title": "خرید وارداتی (ترخیص گمرکی) - ارزش افزوده ۹٪ و عوارض ۱٪",
+						"tax_category": "داخلی",
+						"taxes": [
+							{
+								"account_head": {
+									"account_name": "مالیات بر ارزش افزوده خرید",
+									"account_number": "113",
+									"root_type": "Asset",
+									"tax_rate": 10.0
+								},
+								"description": "مالیات و عوارض ارزش افزوده واردات ۱۰٪ (قابل استرداد)",
+								"rate": 10.0
+							}
+						]
+					},
+					{
+						"title": "خرید معاف از مالیات",
+						"tax_category": "معاف",
+						"taxes": []
+					}
+				],
+				"item_tax_templates": []
+			}
 		}
 	},
 
