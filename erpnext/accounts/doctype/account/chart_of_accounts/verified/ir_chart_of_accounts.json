@@ -1,0 +1,527 @@
+{
+  "country_code": "ir",
+  "name": "Iran - Standard Chart of Accounts",
+  "tree": {
+    "دارایی‌ها": {
+      "account_number": "1",
+      "root_type": "Asset",
+      "دارایی‌های جاری": {
+        "account_number": "10",
+        "is_group": 1,
+        "account_category": "Other Current Assets",
+        "صندوق": {
+          "account_number": "101",
+          "account_type": "Cash",
+          "account_category": "Cash and Cash Equivalents"
+        },
+        "بانک‌ها": {
+          "account_number": "102",
+          "account_type": "Bank",
+          "account_category": "Cash and Cash Equivalents",
+          "حساب‌های جاری بانکی": {
+            "account_number": "1021",
+            "account_type": "Bank",
+            "account_category": "Cash and Cash Equivalents"
+          },
+          "حساب‌های سپرده بانکی": {
+            "account_number": "1022",
+            "account_type": "Bank",
+            "account_category": "Cash and Cash Equivalents"
+          }
+        },
+        "تنخواه‌گردان‌ها": {
+          "account_number": "103",
+          "account_type": "Cash",
+          "account_category": "Cash and Cash Equivalents"
+        },
+        "اسناد دریافتنی": {
+          "account_number": "104",
+          "account_category": "Trade Receivables"
+        },
+        "حساب‌های دریافتنی": {
+          "account_number": "105",
+          "account_type": "Receivable",
+          "account_category": "Trade Receivables"
+        },
+        "پیش‌پرداخت‌ها": {
+          "account_number": "106",
+          "account_category": "Other Current Assets"
+        },
+        "موجودی مواد و کالا": {
+          "account_number": "107",
+          "account_type": "Stock",
+          "account_category": "Stock Assets"
+        },
+        "کالای در راه": {
+          "account_number": "108",
+          "account_category": "Stock Assets"
+        },
+        "کار در جریان ساخت": {
+          "account_number": "109",
+          "account_type": "Stock",
+          "account_category": "Stock Assets"
+        },
+        "اوراق بهادار قابل فروش": {
+          "account_number": "110",
+          "account_category": "Short-term Investments"
+        },
+        "ذخیره مطالبات مشکوک‌الوصول": {
+          "account_number": "111",
+          "account_category": "Other Receivables"
+        },
+        "سرمایه‌گذاری‌های کوتاه‌مدت": {
+          "account_number": "112",
+          "account_category": "Short-term Investments"
+        },
+        "مالیات بر ارزش افزوده خرید": {
+          "account_number": "113",
+          "account_type": "Tax",
+          "account_category": "Other Current Assets"
+        },
+        "دارایی‌های جاری دیگر": {
+          "account_number": "114",
+          "account_category": "Other Current Assets"
+        }
+      },
+      "دارایی‌های ثابت مشهود": {
+        "account_number": "15",
+        "is_group": 1,
+        "account_category": "Tangible Assets",
+        "زمین": {
+          "account_number": "151",
+          "account_type": "Fixed Asset",
+          "account_category": "Tangible Assets"
+        },
+        "ساختمان": {
+          "account_number": "152",
+          "account_type": "Fixed Asset",
+          "account_category": "Tangible Assets"
+        },
+        "تأسیسات، ماشین‌آلات و تجهیزات": {
+          "account_number": "153",
+          "account_type": "Fixed Asset",
+          "account_category": "Tangible Assets"
+        },
+        "وسایل نقلیه": {
+          "account_number": "154",
+          "account_type": "Fixed Asset",
+          "account_category": "Tangible Assets"
+        },
+        "اثاثیه و لوازم اداری": {
+          "account_number": "155",
+          "account_type": "Fixed Asset",
+          "account_category": "Tangible Assets"
+        },
+        "تجهیزات رایانه‌ای و ماشین‌های اداری": {
+          "account_number": "156",
+          "account_type": "Fixed Asset",
+          "account_category": "Tangible Assets"
+        },
+        "سایر دارایی‌های ثابت مشهود": {
+          "account_number": "157",
+          "account_type": "Fixed Asset",
+          "account_category": "Tangible Assets"
+        },
+        "دارایی ثابت در حال ساخت": {
+          "account_number": "158",
+          "account_type": "Capital Work in Progress",
+          "account_category": "Tangible Assets"
+        },
+        "دارایی ثابت دریافتی تسویه‌نشده": {
+          "account_number": "159",
+          "account_type": "Asset Received But Not Billed",
+          "account_category": "Tangible Assets"
+        },
+        "استهلاک انباشته دارایی‌های ثابت مشهود": {
+          "account_number": "160",
+          "account_type": "Accumulated Depreciation",
+          "account_category": "Tangible Assets"
+        }
+      },
+      "دارایی‌های نامشهود": {
+        "account_number": "16",
+        "is_group": 1,
+        "account_category": "Intangible Assets",
+        "حسن نیت (شهرت تجاری)": {
+          "account_number": "161",
+          "account_type": "Fixed Asset",
+          "account_category": "Intangible Assets"
+        },
+        "نرم‌افزار و سیستم‌های اطلاعاتی": {
+          "account_number": "162",
+          "account_type": "Fixed Asset",
+          "account_category": "Intangible Assets"
+        },
+        "علائم تجاری و حقوق مالکیت فکری": {
+          "account_number": "163",
+          "account_type": "Fixed Asset",
+          "account_category": "Intangible Assets"
+        },
+        "سایر دارایی‌های نامشهود": {
+          "account_number": "164",
+          "account_type": "Fixed Asset",
+          "account_category": "Intangible Assets"
+        },
+        "استهلاک انباشته دارایی‌های نامشهود": {
+          "account_number": "165",
+          "account_type": "Accumulated Depreciation",
+          "account_category": "Intangible Assets"
+        }
+      },
+      "سرمایه‌گذاری‌ها و دارایی‌های بلندمدت": {
+        "account_number": "17",
+        "is_group": 1,
+        "account_category": "Long-term Investments",
+        "سرمایه‌گذاری در اوراق مشارکت": {
+          "account_number": "171",
+          "account_category": "Long-term Investments"
+        },
+        "سرمایه‌گذاری در سهام": {
+          "account_number": "172",
+          "account_category": "Long-term Investments"
+        },
+        "سرمایه‌گذاری در واحدهای تجاری وابسته": {
+          "account_number": "173",
+          "account_category": "Long-term Investments"
+        },
+        "وام‌ها و سپرده‌های بلندمدت": {
+          "account_number": "174",
+          "account_category": "Other Non-current Assets"
+        },
+        "دارایی‌های بلندمدت دیگر": {
+          "account_number": "175",
+          "account_category": "Other Non-current Assets"
+        }
+      },
+      "حساب‌های موقت": {
+        "account_number": "19",
+        "is_group": 1,
+        "account_category": "Other Non-current Assets",
+        "حساب موقت افتتاحیه": {
+          "account_number": "191",
+          "account_type": "Temporary",
+          "account_category": "Other Non-current Assets"
+        }
+      }
+    },
+    "بدهی‌ها": {
+      "account_number": "2",
+      "root_type": "Liability",
+      "بدهی‌های جاری": {
+        "account_number": "20",
+        "is_group": 1,
+        "account_category": "Other Current Liabilities",
+        "اسناد پرداختنی": {
+          "account_number": "201",
+          "account_category": "Trade Payables"
+        },
+        "حساب‌های پرداختنی": {
+          "account_number": "202",
+          "account_type": "Payable",
+          "account_category": "Trade Payables"
+        },
+        "پیش‌دریافت‌ها": {
+          "account_number": "203",
+          "account_category": "Other Current Liabilities"
+        },
+        "مالیات بر ارزش افزوده فروش": {
+          "account_number": "204",
+          "account_type": "Tax",
+          "account_category": "Other Current Liabilities"
+        },
+        "عوارض و وجوه قانونی پرداختنی": {
+          "account_number": "205",
+          "account_type": "Tax",
+          "account_category": "Other Current Liabilities"
+        },
+        "مالیات‌های تکلیفی پرداختنی": {
+          "account_number": "206",
+          "account_category": "Current Tax Liabilities"
+        },
+        "مالیات بر درآمد پرداختنی": {
+          "account_number": "207",
+          "account_category": "Current Tax Liabilities"
+        },
+        "بیمه‌های پرداختنی": {
+          "account_number": "208",
+          "account_category": "Other Current Liabilities"
+        },
+        "حقوق و مزایای پرداختنی": {
+          "account_number": "209",
+          "account_category": "Other Current Liabilities"
+        },
+        "سود سهام پرداختنی": {
+          "account_number": "210",
+          "account_category": "Other Payables"
+        },
+        "وام‌ها و تسهیلات کوتاه‌مدت": {
+          "account_number": "211",
+          "account_category": "Short-term Borrowings"
+        },
+        "ذخایر هزینه‌ها": {
+          "account_number": "212",
+          "account_category": "Short-term Provisions"
+        },
+        "کالا و خدمات دریافتی تسویه‌نشده": {
+          "account_number": "213",
+          "account_type": "Stock Received But Not Billed",
+          "account_category": "Other Current Liabilities"
+        },
+        "بدهی‌های جاری دیگر": {
+          "account_number": "214",
+          "account_category": "Other Current Liabilities"
+        }
+      },
+      "بدهی‌های بلندمدت": {
+        "account_number": "25",
+        "is_group": 1,
+        "account_category": "Other Non-current Liabilities",
+        "وام‌ها و تسهیلات بلندمدت": {
+          "account_number": "251",
+          "account_category": "Long-term Borrowings"
+        },
+        "اوراق مشارکت": {
+          "account_number": "252",
+          "account_category": "Long-term Borrowings"
+        },
+        "ذخیره مزایای پایان خدمت کارکنان": {
+          "account_number": "253",
+          "account_category": "Long-term Provisions"
+        },
+        "ذخیره تعهدات بازنشستگی": {
+          "account_number": "254",
+          "account_category": "Long-term Provisions"
+        },
+        "بدهی‌های بلندمدت دیگر": {
+          "account_number": "255",
+          "account_category": "Other Non-current Liabilities"
+        }
+      }
+    },
+    "حقوق صاحبان سهام": {
+      "account_number": "3",
+      "root_type": "Equity",
+      "سرمایه و اندوخته‌ها": {
+        "account_number": "30",
+        "is_group": 1,
+        "account_category": "Share Capital",
+        "سرمایه ثبت‌شده": {
+          "account_number": "301",
+          "account_type": "Equity",
+          "account_category": "Share Capital"
+        },
+        "صرف (کسر) سهام": {
+          "account_number": "302",
+          "account_category": "Share Capital"
+        },
+        "سود (زیان) انباشته": {
+          "account_number": "303",
+          "account_type": "Equity",
+          "account_category": "Reserves and Surplus"
+        },
+        "اندوخته قانونی": {
+          "account_number": "304",
+          "account_category": "Reserves and Surplus"
+        },
+        "اندوخته‌های اختیاری": {
+          "account_number": "305",
+          "account_category": "Reserves and Surplus"
+        },
+        "سود و زیان جامع انباشته": {
+          "account_number": "306",
+          "account_category": "Reserves and Surplus"
+        },
+        "سهام خزانه": {
+          "account_number": "307",
+          "account_category": "Reserves and Surplus"
+        },
+        "تعدیلات دوره‌های قبل": {
+          "account_number": "308",
+          "account_category": "Reserves and Surplus"
+        }
+      }
+    },
+    "درآمدها": {
+      "account_number": "4",
+      "root_type": "Income",
+      "درآمدهای عملیاتی": {
+        "account_number": "40",
+        "is_group": 1,
+        "account_category": "Revenue from Operations",
+        "فروش کالا": {
+          "account_number": "401",
+          "account_type": "Income Account",
+          "account_category": "Revenue from Operations"
+        },
+        "درآمد ارائه خدمات": {
+          "account_number": "402",
+          "account_type": "Income Account",
+          "account_category": "Revenue from Operations"
+        },
+        "درآمد کارمزد و کمیسیون": {
+          "account_number": "403",
+          "account_type": "Income Account",
+          "account_category": "Revenue from Operations"
+        },
+        "برگشت از فروش و تخفیفات": {
+          "account_number": "404",
+          "account_category": "Revenue from Operations"
+        },
+        "سایر درآمدهای عملیاتی": {
+          "account_number": "405",
+          "account_category": "Other Operating Income"
+        }
+      },
+      "درآمدهای غیرعملیاتی": {
+        "account_number": "45",
+        "is_group": 1,
+        "account_category": "Investment Income",
+        "درآمد سود سپرده‌ها و سرمایه‌گذاری‌ها": {
+          "account_number": "451",
+          "account_category": "Investment Income"
+        },
+        "سود حاصل از فروش دارایی‌های ثابت": {
+          "account_number": "452"
+        },
+        "سایر درآمدهای غیرعملیاتی": {
+          "account_number": "453"
+        }
+      }
+    },
+    "بهای تمام‌شده کالای فروش‌رفته": {
+      "account_number": "5",
+      "root_type": "Expense",
+      "بهای تمام‌شده کالای فروش‌رفته": {
+        "account_number": "50",
+        "is_group": 1,
+        "account_category": "Cost of Goods Sold",
+        "بهای تمام‌شده کالای فروش‌رفته": {
+          "account_number": "501",
+          "account_type": "Cost of Goods Sold",
+          "account_category": "Cost of Goods Sold"
+        },
+        "خرید کالای فروش‌رفته": {
+          "account_number": "502",
+          "account_category": "Cost of Goods Sold"
+        },
+        "برگشت از خرید و تخفیفات": {
+          "account_number": "503",
+          "account_category": "Cost of Goods Sold"
+        },
+        "حمل و نقل خرید": {
+          "account_number": "504",
+          "account_category": "Other Direct Costs"
+        },
+        "مواد مستقیم مصرفی": {
+          "account_number": "505",
+          "account_category": "Other Direct Costs"
+        },
+        "حقوق و دستمزد مستقیم": {
+          "account_number": "506",
+          "account_category": "Other Direct Costs"
+        },
+        "سربار تولید": {
+          "account_number": "507",
+          "account_category": "Other Direct Costs"
+        },
+        "تنظیم موجودی": {
+          "account_number": "508",
+          "account_type": "Stock Adjustment",
+          "account_category": "Cost of Goods Sold"
+        },
+        "هزینه‌های منظور در ارزش موجودی": {
+          "account_number": "509",
+          "account_type": "Expenses Included In Valuation",
+          "account_category": "Cost of Goods Sold"
+        }
+      }
+    },
+    "هزینه‌ها": {
+      "account_number": "6",
+      "root_type": "Expense",
+      "هزینه‌های فروش، اداری و عمومی": {
+        "account_number": "60",
+        "is_group": 1,
+        "account_category": "Operating Expenses",
+        "حقوق و مزایای کارکنان": {
+          "account_number": "601",
+          "account_category": "Operating Expenses"
+        },
+        "اجاره": {
+          "account_number": "602",
+          "account_category": "Operating Expenses"
+        },
+        "آب، برق، گاز و تلفن": {
+          "account_number": "603",
+          "account_category": "Operating Expenses"
+        },
+        "تعمیرات و نگهداری": {
+          "account_number": "604",
+          "account_category": "Operating Expenses"
+        },
+        "استهلاک": {
+          "account_number": "605",
+          "account_type": "Depreciation",
+          "account_category": "Operating Expenses"
+        },
+        "بیمه": {
+          "account_number": "606",
+          "account_category": "Operating Expenses"
+        },
+        "حمل و نقل و سفر": {
+          "account_number": "607",
+          "account_category": "Operating Expenses"
+        },
+        "تبلیغات و بازاریابی": {
+          "account_number": "608",
+          "account_category": "Operating Expenses"
+        },
+        "هزینه مطالبات مشکوک‌الوصول": {
+          "account_number": "609",
+          "account_category": "Operating Expenses"
+        },
+        "ملزومات و لوازم اداری": {
+          "account_number": "610",
+          "account_category": "Operating Expenses"
+        },
+        "هزینه‌های پرسنلی و رفاهی": {
+          "account_number": "611",
+          "account_category": "Operating Expenses"
+        },
+        "هزینه‌های تحقیق و توسعه": {
+          "account_number": "612",
+          "account_category": "Operating Expenses"
+        },
+        "آموزش و کارآموزی": {
+          "account_number": "613",
+          "account_category": "Operating Expenses"
+        },
+        "هزینه‌های مالی و کارمزد تسهیلات": {
+          "account_number": "614",
+          "account_category": "Finance Costs"
+        },
+        "جرائم و خسارات": {
+          "account_number": "615",
+          "account_category": "Operating Expenses"
+        },
+        "اختلاف ناشی از گرد کردن": {
+          "account_number": "616",
+          "account_type": "Round Off",
+          "account_category": "Operating Expenses"
+        },
+        "تفاوت نرخ تسعیر ارز": {
+          "account_number": "617",
+          "account_category": "Operating Expenses"
+        },
+        "مالیات بر درآمد": {
+          "account_number": "618",
+          "account_category": "Tax Expense"
+        },
+        "سایر هزینه‌ها": {
+          "account_number": "619",
+          "account_category": "Operating Expenses"
+        }
+      }
+    }
+  }
+}
