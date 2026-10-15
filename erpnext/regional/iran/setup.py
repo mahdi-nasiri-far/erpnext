@@ -11,13 +11,30 @@ custom fields whenever a company with country "Iran" is created.
 The Iranian chart of accounts (طرح حساب‌های نمونه) is shipped as a chart template
 and the VAT (مالیات بر ارزش افزوده ۹٪ + عوارض ۱٪) templates are created by the
 setup wizard from `country_wise_tax.json`.
+
+The Persian print formats of the financial statements (ترازنامه، صورت سود و زیان و
+صورت گردش وجوه نقد) in the Iranian standard layout, with the signature block of the
+board, are loaded from `erpnext/regional/print_format` as well.
 """
 
+import frappe
 from frappe.custom.doctype.custom_field.custom_field import create_custom_fields
+
+PRINT_FORMATS = (
+	"iran_balance_sheet",
+	"iran_profit_and_loss_statement",
+	"iran_cash_flow_statement",
+)
 
 
 def setup(company=None, patch=True):
 	make_custom_fields()
+	add_print_formats()
+
+
+def add_print_formats():
+	for print_format in PRINT_FORMATS:
+		frappe.reload_doc("regional", "print_format", print_format)
 
 
 def get_custom_fields():
